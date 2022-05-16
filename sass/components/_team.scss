@@ -1,0 +1,97 @@
+
+.team{
+    padding-bottom:  60px;
+background-color: $saction-bg-color;
+}
+
+
+.team__title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: $title-text-color;
+margin-bottom: 50px;
+}
+
+.team-card{
+margin-left: -30px;
+
+@media screen and (min-width: 768px){
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 1200px){
+    display: flex;
+    margin-left: -30px;
+    padding: 0;
+}
+
+}
+.team-card__item{
+
+background:$primary-text-color;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+margin-left: 30px;
+@media screen and (min-width: 768px){
+    width: 270px;
+   }
+}
+
+.team-card__name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    .team-card__position{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: $acent-text-color;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    }
+    
+/* team-social-network */
+.team-card-network{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+} 
+.team-card-network__icon{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 12px;
+    }
+    
+    .team-card-network__item{
+    display: block;
+    width: 44px;
+    height: 44px;
+    fill: $network-icon-color;
+    background-color: $primary-text-color;
+    border-radius: 50%;
+    padding: 0;
+    margin-left: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus
+    {
+    fill:$primary-text-color;
+    background-color: $primary-bg-color;
+    }
+}
+    
+    
+    
+    

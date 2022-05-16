@@ -1,0 +1,95 @@
+
+.footer-form{
+    @media screen and (min-width: 768px){
+        margin-left: 150px;
+        }
+        @media screen and (min-width: 1200px){
+            margin-left: 93px;
+            }
+}
+
+.footer-form__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-text-color;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    margin-top: 60px;
+    @media screen and (min-width: 1200px){
+        margin-top: 10px;
+        margin-bottom: 0;
+        }
+    }
+
+    .footer-form-box label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .footer-form-box input{
+        padding: 15px 16px;
+        width: 450px;
+        height: 50px;
+        background-color: $hero-bg-color;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        color: $primary-text-color;
+        margin-left: 50px;
+        @media screen and (min-width: 1200px){
+            margin-left: 0;
+            margin-top: 10px;
+            width: 358px;
+            }
+        }
+        .footer-form-box{
+            @media screen and (min-width: 1200px){
+                display: flex;
+                align-items: baseline;
+                }
+        }
+
+        /* кнопка */
+    
+    .footer-form-button{
+        height: 50px;
+        background: $primary-bg-color;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin-left: 12px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $primary-text-color;
+        padding-left: 29px;
+        margin-top: 20px;
+        margin-left: 130px;
+        @media screen and (min-width: 1200px){
+           margin-left: 10px;
+            }
+        }
+        .footer-form-button__icon{
+            width: 24px;
+            height: 24px;
+            margin-right: 13.8px;
+            margin-left: 10px;
+        }
