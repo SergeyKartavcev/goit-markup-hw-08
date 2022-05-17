@@ -21,7 +21,7 @@
             <div class="header-list">
             <a href="#" class="header-list__logo"> Web<span class="logo-part">Studio</span> </a>
             
-                <div class="header-list-menu" id="header-list-menu" data-menu >
+                <div class="header-list-menu is-open" id="header-list-menu" data-menu  >
                 <nav class="header-list-nav">
                 <ul class="header-list-site">
                     <li class="header-list-site__item" ><a href="./index.html" class="header-list-site__link_courrent"> Студия 
@@ -45,7 +45,13 @@
                     </use>
                 </svg>+38 096 111 11 11</a> </li>
         </ul></div>
-<button tipe="button" class="menu-button is-open" aria-expanded="false">
+<button 
+tipe="button" 
+class="menu-button is-open" 
+aria-expanded="false"
+aria-controls="header-list-menu"
+data-menu-button>
+
     <svg width="40" height="40"
     aria-label="переключатель мобильного меню">
         <use class="menu-button__icon-menu" href="./images/symbol-defs3.svg#icon-menu"></use>
