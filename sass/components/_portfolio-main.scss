@@ -35,17 +35,50 @@ padding-right: 24px;
 }
 
 .flax-container{
+display: block;
+margin-top: 38px;
+margin-bottom: -30px;
+@media screen and (min-width: 768px){
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+   margin-right: -30px;
+   
+
+}
+    @media screen and (min-width: 1200px){
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -20px;
+        margin-top: -30px;
+    }
 }
 
 .flax-container__element{
-    margin-left: 30px;
-    margin-top: 30px;
+    padding-bottom: 30px;
+    
+    @media screen and (min-width: 768px){
+    width: 50%;   
+    }
+    @media screen and (min-width: 1200px){
+    margin-left: 20px;
     flex-basis: calc((100% - 90px) / 3);
+        width: 370px;
+    }
 }
+
+.flax-bloc{
+    width: 450px;
+    @media screen and (min-width: 768px){
+        width: 354px;   
+       padding-bottom: 30px;     
+}
+@media screen and (min-width: 1200px){
+    width: 370px;   
+    padding-bottom: 0; 
+    margin-right: 0;
+}
+}
+
 
 .flax-bloc__link{
     display: block;
@@ -66,6 +99,7 @@ padding-right: 24px;
     letter-spacing: 0.06em;
     color: $title-text-color;
     text-decoration: none;
+    
 }
 
 .flax-overlay__inform{
@@ -81,5 +115,13 @@ padding-right: 24px;
 .flax-overlay{
     padding: 20px 24px 20px 24px;
     border: 1px solid $border-overlay-color; 
+    @media screen and (min-width: 768px){
+        height: 146px;
+ }
 }
 
+.portfolio{
+    @media screen and (min-width: 768px){
+        padding-bottom: 64;
+        }
+}

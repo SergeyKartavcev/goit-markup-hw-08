@@ -7,13 +7,22 @@
 }
 
 .filter{
-    display: flex;
-    justify-content: center;  
-    margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px){
+      margin-left: 79px;
+  }
+    @media screen and (min-width: 1200px){
+        display: flex;
+        justify-content: center;  
+        margin-bottom: 50px;
+       
+    }
 }
 
 .filter__item{
     padding-right: 8px;
+    padding-bottom: 8px;
 }
 
 

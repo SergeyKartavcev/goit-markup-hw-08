@@ -21,15 +21,22 @@
 
  .modal{
     position: relative;
+    padding: 40px;
     top: 50%;
     left: 50%;
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
     background-color: $primary-text-color;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(-50%, -50%) scale(1);
+    @media screen and (min-width: 1200px){
+      width: 528px;
+      height: 581px;
+    }
 } 
+
+
 
 .close-button { 
     position: absolute;
@@ -80,18 +87,7 @@
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.modal{
-  position: absolute;
-  padding: 40px;
-  top: 50%;
-  left: 50%;
-  width: 528px;
-  height: 581px;
-  background-color: $primary-text-color;
-  border-radius: 4px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translate(-50%, -50%) scale(1);
-} 
+
 
 .close-button { 
   position: absolute;
@@ -150,7 +146,7 @@ color: $acent-text-color;
 }
 
 .form-input{
-  width: 448px;
+  width: 370px;
   height: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -160,6 +156,9 @@ color: $acent-text-color;
   box-sizing: border-box;
   border-radius: 4px; 
   padding-left: 42px;
+  @media screen and (min-width: 1200px){
+    width: 448px;
+  }
 }
 
 .form-input:focus + .form-icon1 {
@@ -211,8 +210,11 @@ fill: currentColor;
 
 textarea{
   resize: none;
-  width: 448px;
+  width: 370px;
   height: 120px;
+  @media screen and (min-width: 1200px){
+    width: 448px;
+  }
 }
 .comment-text{
   padding-top: 12px;
@@ -227,10 +229,11 @@ textarea{
 }
 
 .form-button{
+  width: 200px;
 height: 50px;
 background-color: $primary-bg-color;
 margin-bottom: 40px;
-margin-left: 124px;
+margin-left: 80px;
 margin-top: 30px;
 padding-left: 55px;
 padding-right: 55px;
@@ -244,6 +247,9 @@ text-align: center;
 letter-spacing: 0.06em;
 color: $primary-text-color;
 cursor: pointer;
+@media screen and (min-width: 1200px){
+ margin-left: 124px;
+}
 }
 /* checkbox */
 .option input[type="checkbox"]{
@@ -285,10 +291,14 @@ border: $primary-bg-color;
 .chek__title{
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
+font-size: 12px;
+line-height: 1.16;
 letter-spacing: 0.03em;
 color: $acent-text-color;
+@media screen and (min-width: 1200px){
+  font-size: 14px;
+line-height: 1.7;
+}
 }
 
 

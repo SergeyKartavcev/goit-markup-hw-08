@@ -47,14 +47,7 @@
 } 
 
 
-.menu-button{
-    margin-left:auto;
-    margin-right: 10px;
-    padding: 10px;
-    @media screen and (min-width: 768px){
-       display: none;
-    }
-}
+
 
 .header-list-site__link{
     color: $title-text-color;
@@ -175,5 +168,24 @@
 
 
 
- 
+.menu-button{
+    display: inline-flex;
+    margin-left: 200px;
+    padding-top: 10px;
+    border: none;
+    background-color: $primary-text-color;
+    @media screen and (min-width: 768px){
+       display: none;
+    }
+}
 
+.menu-button.menu-button__icon-close{
+    display: none;
+}
+.menu-button .is-open .menu-button__icon-close{
+    display: block;
+}
+
+.menu-button .is-open .menu-button__icon-menu{
+display: none;
+}
