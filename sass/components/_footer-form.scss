@@ -18,10 +18,10 @@
     text-transform: uppercase;
     color: $primary-text-color;
     margin-bottom: 20px;
-    text-align: center;
+   margin-left: 131px;
     margin-top: 60px;
     @media screen and (min-width: 768px){
-     text-align: center;
+     margin-left: 282px;
         }
     @media screen and (min-width: 1200px){
         margin-top: 10px;
@@ -55,8 +55,8 @@
         border-radius: 4px;
         color: $primary-text-color;
         @media screen and (min-width: 768px){
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 161px;
+           
             }
         @media screen and (min-width: 1200px){
             margin-left: 0;
@@ -91,10 +91,9 @@
         color: $primary-text-color;
         padding-left: 29px;
         margin-top: 20px;
-        margin-left: 130px;
+        margin-left: 140px;
         @media screen and (min-width: 768px){
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 291px
             }
         @media screen and (min-width: 1200px){
            margin-left: 10px;

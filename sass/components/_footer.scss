@@ -15,11 +15,8 @@
         max-width: 1600px;
         }
 
-        // @media screen and (max-width: 479px){
-        //     width: 100%;
-        //     }
         @media screen and (min-width: 768px){
-            max-width: 1600pxpx;
+            max-width: 1600px;
             }
             @media screen and (min-width: 1200px){
                 max-width: 1600px;
@@ -27,6 +24,8 @@
    }
 
    .footer-box{
+       margin-left: auto;
+       margin-right: auto;
     @media screen and (min-width: 768px){
         display: flex;
         align-items: baseline;
@@ -34,10 +33,16 @@
 
 }
 
-
+.footer-contakt{
+    @media screen and (min-width: 768px){
+       margin-left: 76px;
+    }
+    @media screen and (min-width: 1200px){
+        margin-left: 0;
+     }
+}
 
 .footer-contakt__link{
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -48,9 +53,9 @@
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-left: 143px;
+    margin-left: 163px;
     @media screen and (min-width: 768px){
-       margin-left: 115px;
+     margin-left: 30px;
     }
     @media screen and (min-width: 1200px){
         margin-left: 0;
@@ -64,14 +69,17 @@
     }
     
   .footer-contakt-list{
-      margin-left: 100px;
+      margin-left: 126px;
       margin-top: 20px;
+      @media screen and (min-width: 768px){
+        margin-left:auto;
+        margin-right: auto;
+      }
       @media screen and (min-width: 1200px){
         margin-left: 0;
      }
   }  
  .footer-contakt__location{
-        // display: block;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -84,7 +92,7 @@
          color: $primary-bg-color;
      }
      @media screen and (min-width: 768px){
-        margin-left: 15px;
+        margin-left: 0;
      }
      }
     
@@ -103,10 +111,13 @@
          transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: $primary-bg-color;
                 }
-                @media screen and (min-width: 768px){
+        @media screen and (min-width: 768px){
                   padding: 0;
-                  margin-left: 15px;
+                  margin-left: 36px;
                  }
+        @media screen and (min-width: 768px){
+                   margin-left: 0;
+                   }
      }
  
 
@@ -123,19 +134,20 @@
         text-transform: uppercase;
         color: $primary-text-color;
         margin-bottom: 20px;
-        margin-left: 140px;
+        margin-left: 167px;
         margin-top: 60px;
-        @media screen and (min-width: 768px){
-           margin-left: 30px;
-           }
+        // @media screen and (min-width: 768px){
+       
+        //    }
            @media screen and (min-width: 1200px){
            margin-top: 0;
+           margin-left: 0;
             }
         }    
 
         .footer-network{
             @media screen and (min-width: 768px){
-                margin-left: 165px;
+                margin-left: 0;
                 }
                 @media screen and (min-width: 1200px){
                     margin-left: 70px;
@@ -161,7 +173,13 @@
         }
         .footer-network-list{
             display: flex;
-            justify-content: center;
+            margin-left: 137px;
+            @media screen and (min-width: 768px){
+                margin-left: 165px;
+                }
+        @media screen and (min-width: 1200px){
+                    margin: 0;
+                    }
         }   
         
         
