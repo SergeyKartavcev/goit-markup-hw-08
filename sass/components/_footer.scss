@@ -9,6 +9,19 @@
     background-color:$hero-bg-color;
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and (min-width: 480px){
+        width: 480px;
+        }
+
+        @media screen and (max-width: 479px){
+            width: 100%;
+            }
+        @media screen and (min-width: 768px){
+            width: 768px;
+            }
+            @media screen and (min-width: 1200px){
+                width: 1200px;
+                }
    }
 
    .footer-box{
@@ -56,7 +69,7 @@
      }
   }  
  .footer-contakt__location{
-        display: block;
+        // display: block;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
