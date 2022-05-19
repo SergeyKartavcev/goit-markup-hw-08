@@ -250,6 +250,8 @@
 }
 .header-list-menu{
     background-color: $primary-text-color;
+    outline: 2px crimson;
+    height: 796px;
 
     @media screen and (max-width: 767px){
         display: none;
@@ -275,9 +277,14 @@
 
 
 .menu-button{
+    position: relative;
     display: inline-flex;
-    margin-left: 200px;
+margin-left: 254px;
+margin-top: 5px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40px;
+    height: 40px;
     border: none;
     background-color: $primary-text-color;
     @media screen and (min-width: 768px){
@@ -290,16 +297,18 @@
 }
  .is-open .menu-button__icon-close{
     display: block;
+
   
 }
 
  .is-open .menu-button__icon-menu{
 display: none;
+
 }
 
 .header-list-menu-network{
     display: flex;
-  
+  margin-left: 20px;
 
     @media screen and (min-width: 768px){
         display: none;
