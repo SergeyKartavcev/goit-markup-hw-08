@@ -1489,8 +1489,13 @@ img {
 .client-card__item {
   margin-left: 30px;
   margin-bottom: 30px;
-  -ms-flex-preferred-size: calc((100% - 60px) / 2);
-      flex-basis: calc((100% - 60px) / 2);
+}
+
+@media screen and (max-width: 479px) {
+  .client-card__item {
+    -ms-flex-preferred-size: 100%/2;
+        flex-basis: 100%/2;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1556,6 +1561,12 @@ img {
 @media screen and (min-width: 480px) {
   .footer {
     max-width: 1600px;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .footer {
+    width: 497px;
   }
 }
 

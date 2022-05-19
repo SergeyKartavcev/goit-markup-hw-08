@@ -15,6 +15,10 @@
         max-width: 1600px;
         }
 
+        @media screen and (max-width: 467px){
+            width: 497px;
+            }
+      
         @media screen and (min-width: 768px){
             max-width: 1600px;
             }
