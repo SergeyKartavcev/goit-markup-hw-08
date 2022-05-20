@@ -44,17 +44,15 @@
 
     @media screen and (min-width: 1200px){
         display: flex;
-        margin-left: 280px;
-        margin-top: 28px;
-        margin-bottom: 21px;
+       padding-top:12px;
+      margin-left: 200px;
         }
 }
 
 .header-contacts__item {
     padding-right: 30px;
     @media screen and (min-width: 768px){
-        margin-bottom: 10px;
-       
+        padding-bottom: 10px;
     }
     }
 
