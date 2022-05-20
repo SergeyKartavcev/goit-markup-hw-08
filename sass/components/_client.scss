@@ -24,7 +24,7 @@
        @media screen and (max-width: 479px){
          display: flex;
          flex-wrap: wrap;
-         width: 100%;
+         
                  }
         @media screen and (min-width: 1200px){
             display: flex;
@@ -37,9 +37,9 @@
     .client-card__item{
         margin-left: 30px;
         margin-bottom: 30px;
-        @media screen and (max-width: 479px){
-            flex-basis: calc((100%-60px)/2);
-                     }
+        @media screen and (min-width: 320px){
+            width: 40%
+                 }
         @media screen and (min-width: 768px){
             flex-basis: calc((100% - 90px) / 3);
         }
@@ -47,7 +47,7 @@
       
     }
     
-    .client-card__logo{
+    .client-card__link{
         display: flex;
         align-items: center;
         border: 1px solid #AFB1B8;
@@ -63,7 +63,10 @@
             border-color: $primary-bg-color;
             color: $primary-bg-color ;
         }
-        
+        @media screen and (min-width: 320px){
+            width: 100%;
+            margin-left: 30px;
+                 }
         @media screen and (min-width: 480px){
             width: 210px;
                  }

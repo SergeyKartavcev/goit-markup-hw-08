@@ -244,44 +244,14 @@
         }
         
 
-.header-list-menu{
-            background-color: $primary-text-color;
-            height: 796px;
-           opacity: 0;
-            @media screen and (max-width: 479px){
-                width: 100%;
-                position: fixed;
-                opacity: 1;
-               
-            }
-        
-            @media screen and (max-width: 767px){
-              position: fixed;
-                display: none;
-                width: 100%;
-                top: 100%;
-                left: 0;
-                opacity: 1;
-             }
-              @media screen and (min-width: 768px){
-                position: relative;
-                    top: 0;
-                    display: flex;
-                    height: 80px;
-                }
-                @media screen and (min-width: 1200px){
-                    position: relative;
-                    margin-left: 0;
-                }
-         }
+
 
 .header-list-menu.is-open{
     position: absolute;
     display: block;
     z-index: 6;
     background-color: $primary-text-color;
-  opacity: 0;
-  pointer-events: none;
+  
 @media screen and (min-width: 768px){
     position: relative;
     top: 0;
@@ -289,14 +259,45 @@
 }
 
 }
+.header-list-menu{
+    background-color: $primary-text-color;
+    height: 796px;
+   
+    @media screen and (max-width: 479px){
+        width: 480px;
+        position: fixed;
+       
+    }
+
+    @media screen and (max-width: 767px){
+      position: fixed;
+        display: none;
+        width: 480px;
+        top: 100%;
+        left: 0;
+     }
+      @media screen and (min-width: 768px){
+        position: relative;
+            top: 0;
+           
+            display: flex;
+            height: 80px;
+        }
+        @media screen and (min-width: 1200px){
+            position: relative;
+            margin-left: 0;
+        }
+ }
+
 
 .menu-button{
     position: relative;
     display: inline-flex;
-    margin: 0;
-    padding: 0;
-    top: 15px;
-    left: 276px;
+    left: 254px;
+    top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
     height: 40px;
     border: none;
     background-color: $primary-text-color;
@@ -304,14 +305,20 @@
        display: none;
     }
 }
-.menu-button.icon-close{
+
+.menu-button__icon-close{
     display: none;
 }
+ .is-open .menu-button__icon-close{
+    display: block;
 
+  
+}
 
+ .is-open .menu-button__icon-menu{
+display: none;
 
-
-
+}
 
 .header-list-menu-network{
     display: flex;
