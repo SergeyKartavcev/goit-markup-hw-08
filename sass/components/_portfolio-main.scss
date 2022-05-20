@@ -2,7 +2,9 @@
     position: relative;
     overflow: hidden; 
 }
-
+.flax-bloc{
+    height: 404px;
+}
 .flax-bloc:hover .produkt-overlay{
     transform: translateY(-100%);
     opacity: 1;
@@ -33,53 +35,53 @@ padding-right: 24px;
 }
 
 .flax-container{
-display: block;
-margin-top: 38px;
-margin-bottom: -30px;
 @media screen and (min-width: 768px){
     display: flex;
     flex-wrap: wrap;
    margin-right: -30px;
-   
 
 }
     @media screen and (min-width: 1200px){
         display: flex;
         flex-wrap: wrap;
-        margin-left: -20px;
-        margin-top: -30px;
+        margin-left: -30px;
+        margin-bottom: -30px;
     }
 }
 
 .flax-container__element{
-    padding-bottom: 30px;
+    
     
     @media screen and (min-width: 768px){
     width: 50%;   
     }
     @media screen and (min-width: 1200px){
-    margin-left: 20px;
-    flex-basis: calc((100% - 90px) / 3);
-        width: 370px;
+   width: 30%;
+      margin-left: 30px;
     }
 }
 
-.flax-bloc{
-    width: 450px;
+
+
+.flex-product__piture{
+    @media screen and (min-width: 480px){
+        width: 450px; 
+        height: 404px; 
+             
+        }
     @media screen and (min-width: 768px){
         width: 354px;   
-       padding-bottom: 30px;     
-}
-@media screen and (min-width: 1200px){
-    width: 370px;   
-    padding-bottom: 0; 
-    margin-right: 0;
-}
-}
-
+        height: 404px;     
+        }
+        @media screen and (min-width: 1200px){
+            width: 370px;  
+           height: 404px;
+           padding-top: 63px;
+           padding-bottom: 63px;
+          }
+    }
 
 .flax-bloc__link{
-    display: block;
    &:hover,
    &:focus{
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -113,12 +115,6 @@ margin-bottom: -30px;
 .flax-overlay{
     padding: 20px 24px 20px 24px;
     border: 1px solid $border-overlay-color; 
-    @media screen and (min-width: 768px){
- }
+  
 }
 
-.portfolio{
-    @media screen and (min-width: 768px){
-        padding-bottom: 64;
-        }
-}

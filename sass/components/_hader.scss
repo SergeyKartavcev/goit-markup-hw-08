@@ -11,8 +11,6 @@
     
     @media screen and (min-width: 768px){
         display: flex;
-     margin-left: 44px;
-     
     }
     @media screen and (min-width: 1200px){
         display: flex;
@@ -21,10 +19,6 @@
 }
 
 .header-list-site__item{
-    
-    // @media screen and (min-width: 768px){
-        
-    // }
     @media screen and (min-width: 1200px){
         margin-left: 30px
     }
@@ -35,9 +29,10 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 40px ;
+
     @media screen and (min-width: 768px){
     display: block;
-    margin-left: 84px;
+    padding-left: 84px;
     margin-top: 21px;
     margin-bottom: 21px;
     }
@@ -45,7 +40,7 @@
     @media screen and (min-width: 1200px){
         display: flex;
        padding-top:12px;
-      margin-left: 200px;
+      padding-left: 240px;
         }
 }
 
@@ -53,6 +48,7 @@
     padding-right: 30px;
     @media screen and (min-width: 768px){
         padding-bottom: 10px;
+        
     }
     }
 
@@ -148,6 +144,7 @@
                 font-size: 14px;
                 line-height: 1.14;
                 padding-top: 32px;
+                padding-left: 0;
                 padding-bottom: 32px;
                 margin-top: 0;
             }
