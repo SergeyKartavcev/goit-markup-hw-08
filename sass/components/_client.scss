@@ -1,7 +1,9 @@
 
 .client{
   padding-top: 60px;
- 
+  @media screen and (max-width: 479px){
+  width: 480px;
+            }
 }
 .client__title{
     font-weight: 700;
@@ -18,7 +20,12 @@
         flex-wrap: wrap;
        margin-left: -30px;
         margin-bottom: -30px;
-      
+
+       @media screen and (max-width: 479px){
+         display: flex;
+         flex-wrap: wrap;
+         width: 100%;
+                 }
         @media screen and (min-width: 1200px){
             display: flex;
             flex-wrap: nowrap;
@@ -30,16 +37,13 @@
     .client-card__item{
         margin-left: 30px;
         margin-bottom: 30px;
-        
-
         @media screen and (max-width: 479px){
-        
-      flex-basis: 100%/2;
-              
-           }
+            flex-basis: calc((100%-60px)/2);
+                     }
         @media screen and (min-width: 768px){
             flex-basis: calc((100% - 90px) / 3);
         }
+
       
     }
     
@@ -47,7 +51,7 @@
         display: flex;
         align-items: center;
         border: 1px solid #AFB1B8;
-        width: 210px;
+        width: 100%;
         height: 92px;
         border-radius: 4px;
         color: #AFB1B8;
@@ -59,6 +63,12 @@
             border-color: $primary-bg-color;
             color: $primary-bg-color ;
         }
+        
+        @media screen and (min-width: 480px){
+            width: 210px;
+                 }
+        
+       
 
         @media screen and (min-width: 768px){
         width: 226px;

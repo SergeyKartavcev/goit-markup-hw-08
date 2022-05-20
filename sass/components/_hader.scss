@@ -1,6 +1,7 @@
 .header__pege{
     position: relative;
     padding: 0;
+    border-bottom: 1px solid $border-color; 
 }
 .header-list{
     display: flex;
@@ -10,7 +11,7 @@
     
     @media screen and (min-width: 768px){
         display: flex;
-        margin-left: 70px;
+     margin-left: 44px;
      
     }
     @media screen and (min-width: 1200px){
@@ -31,7 +32,9 @@
 
 .header-contacts{
     margin-top: 302px;
-    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     @media screen and (min-width: 768px){
     display: block;
     margin-left: 84px;
@@ -41,8 +44,8 @@
 
     @media screen and (min-width: 1200px){
         display: flex;
-        margin-left: 305px;
-        margin-top: 21px;
+        margin-left: 280px;
+        margin-top: 28px;
         margin-bottom: 21px;
         }
 }
@@ -241,53 +244,59 @@
         }
         
 
-
+.header-list-menu{
+            background-color: $primary-text-color;
+            height: 796px;
+           opacity: 0;
+            @media screen and (max-width: 479px){
+                width: 100%;
+                position: fixed;
+                opacity: 1;
+               
+            }
+        
+            @media screen and (max-width: 767px){
+              position: fixed;
+                display: none;
+                width: 100%;
+                top: 100%;
+                left: 0;
+                opacity: 1;
+             }
+              @media screen and (min-width: 768px){
+                position: relative;
+                    top: 0;
+                    display: flex;
+                    height: 80px;
+                }
+                @media screen and (min-width: 1200px){
+                    position: relative;
+                    margin-left: 0;
+                }
+         }
 
 .header-list-menu.is-open{
     position: absolute;
     display: block;
     z-index: 6;
     background-color: $primary-text-color;
-
+  opacity: 0;
+  pointer-events: none;
 @media screen and (min-width: 768px){
+    position: relative;
     top: 0;
     display: flex;
 }
 
 }
-.header-list-menu{
-    background-color: $primary-text-color;
-    outline: 2px crimson;
-    height: 796px;
-
-    @media screen and (max-width: 767px){
-        display: none;
-        position: absolute;
-        display: none;
-        width: 100%;
-        top: 100%;
-        left: 0;
-     }
-      @media screen and (min-width: 768px){
-            top: 0;
-            left: 190px;
-            display: flex;
-            height: 80px;
-        }
-        @media screen and (min-width: 1200px){
-            margin-left: 0;
-        }
- }
-
 
 .menu-button{
     position: relative;
     display: inline-flex;
-margin-left: 234px;
-margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 40px;
+    margin: 0;
+    padding: 0;
+    top: 15px;
+    left: 276px;
     height: 40px;
     border: none;
     background-color: $primary-text-color;
@@ -295,24 +304,19 @@ margin-top: 5px;
        display: none;
     }
 }
-
-.menu-button__icon-close{
+.menu-button.icon-close{
     display: none;
 }
- .is-open .menu-button__icon-close{
-    display: block;
 
-  
-}
 
- .is-open .menu-button__icon-menu{
-display: none;
 
-}
+
+
 
 .header-list-menu-network{
     display: flex;
-  margin-left: 20px;
+    justify-content: space-evenly;
+    margin-top: 60px;
 
     @media screen and (min-width: 768px){
         display: none;
@@ -323,14 +327,15 @@ display: none;
 }
 
 .header-list-menu-network__item{
+
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 1.22px;
 letter-spacing: 0.02em;
 color: $primary-bg-color;
-margin-left: 20px;
-margin-top: 64px;
+
+
 // &:hover,
 // &:focus
 // {
