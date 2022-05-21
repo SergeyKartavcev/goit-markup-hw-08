@@ -2107,7 +2107,7 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-right: -30px;
+    margin-left: -30px;
   }
 }
 
