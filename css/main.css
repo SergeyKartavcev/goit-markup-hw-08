@@ -1301,6 +1301,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .benefits-card__icon {
+    margin-left: 100px;
+  }
+}
+
 .work {
   padding-top: 0;
 }
@@ -1381,6 +1387,13 @@ img {
 .team {
   padding-bottom: 60px;
   background-color: #F5F4FA;
+}
+
+@media screen and (max-width: 479px) {
+  .team {
+    width: 480px;
+    min-width: 320px;
+  }
 }
 
 .team__title {
@@ -1609,6 +1622,13 @@ img {
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 479px) {
+  .footer {
+    width: 480px;
+    min-width: 320px;
+  }
 }
 
 .footer-box {
@@ -2047,7 +2067,6 @@ img {
 }
 
 .flax-product {
-  padding-top: 100px;
   position: relative;
   overflow: hidden;
 }
