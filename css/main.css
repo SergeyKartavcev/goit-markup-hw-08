@@ -309,12 +309,6 @@ ul {
   display: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -2196,5 +2190,9 @@ img {
     height: 110px;
     margin-bottom: 30px;
   }
+}
+
+.flax-product__img {
+  height: 295px;
 }
 /*# sourceMappingURL=main.css.map */
