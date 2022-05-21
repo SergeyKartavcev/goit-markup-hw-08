@@ -352,7 +352,6 @@ img {
 .header__pege {
   position: relative;
   padding: 0;
-  width: 1600px;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -1612,30 +1611,6 @@ img {
   margin-right: auto;
 }
 
-@media screen and (min-width: 480px) {
-  .footer {
-    width: 768px;
-  }
-}
-
-@media screen and (max-width: 467px) {
-  .footer {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .footer {
-    width: 1200px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer {
-    width: 1230px;
-  }
-}
-
 .footer-box {
   margin-left: auto;
   margin-right: auto;
@@ -2072,12 +2047,9 @@ img {
 }
 
 .flax-product {
+  padding-top: 100px;
   position: relative;
   overflow: hidden;
-}
-
-.flax-bloc {
-  height: 404px;
 }
 
 .flax-bloc:hover .produkt-overlay {
