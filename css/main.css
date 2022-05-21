@@ -1992,8 +1992,16 @@ img {
   }
 }
 
-.filters {
-  padding-bottom: 0;
+@media screen and (max-width: 479px) {
+  .portfolio {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio {
+    padding-top: 60px;
+  }
 }
 
 .description {
@@ -2006,6 +2014,18 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media screen and (max-width: 479px) {
+  .filter {
+    padding-bottom: 46px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .filter {
+    padding-bottom: 46px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2193,6 +2213,6 @@ img {
 }
 
 .flax-product__img {
-  height: 295px;
+  height: 294px;
 }
 /*# sourceMappingURL=main.css.map */

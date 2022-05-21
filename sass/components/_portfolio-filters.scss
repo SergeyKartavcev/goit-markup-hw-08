@@ -1,11 +1,16 @@
 .portfolio{
     @media screen and (min-width: 768px){
         padding-top: 64px;  }
+        @media screen and (max-width: 479px){
+            padding-top: 60px; 
+                    }
+         @media screen and  (min-width: 480px) {
+            padding-top: 60px; 
+            
+          } 
 }
 
-.filters{
-    padding-bottom: 0;
-}
+
 
 .description{
     display: none;
@@ -14,16 +19,25 @@
 .filter{
   display: flex;
   flex-wrap: wrap;
-  @media screen and (min-width: 768px){
-      margin-left: 79px;
-      margin-bottom: 36px;
-  }
-    @media screen and (min-width: 1200px){
-        display: flex;
-        justify-content: center;  
-        margin-bottom: 56px;
-    }
+  @media screen and (max-width: 479px){
+    padding-bottom: 46px; 
+            }
+ @media screen and  (min-width: 480px) {
+    padding-bottom: 46px; 
+  } 
+  @media screen and (min-width: 768px) {
+    margin-left: 79px;
+    margin-bottom: 36px;
 }
+  @media screen and (min-width: 1200px){
+      display: flex;
+      justify-content: center;  
+      margin-bottom: 56px;
+  }
+}
+
+    
+
 
 .filter__item{
     padding-right: 8px;
