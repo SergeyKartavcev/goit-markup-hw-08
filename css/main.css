@@ -291,7 +291,6 @@ button {
 section {
   padding-top: 94px;
   padding-bottom: 94px;
-  max-width: 1600px;
 }
 
 h1,
@@ -353,6 +352,7 @@ img {
 .header__pege {
   position: relative;
   padding: 0;
+  width: 1600px;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -654,7 +654,6 @@ img {
 
 @media screen and (max-width: 479px) {
   .header-list-menu {
-    width: 480px;
     position: fixed;
   }
 }
@@ -663,7 +662,6 @@ img {
   .header-list-menu {
     position: fixed;
     display: none;
-    width: 480px;
     top: 100%;
     left: 0;
   }
@@ -776,7 +774,6 @@ img {
 }
 
 .hero {
-  max-width: 1600px;
   padding-top: 0;
   text-align: center;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Header.img1@2x.jpg");
@@ -1387,31 +1384,6 @@ img {
   background-color: #F5F4FA;
 }
 
-@media screen and (max-width: 479px) {
-  .team {
-    width: 480px;
-    min-width: 320px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .team {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team {
-    width: 1200px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .team {
-    width: 1230px;
-  }
-}
-
 .team__title {
   font-weight: 700;
   font-size: 36px;
@@ -1522,30 +1494,6 @@ img {
 
 .client {
   padding-top: 60px;
-}
-
-@media screen and (max-width: 479px) {
-  .client {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .client {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .client {
-    width: 1200px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .client {
-    width: 1230px;
-  }
 }
 
 .client__title {
@@ -1662,7 +1610,6 @@ img {
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
 }
 
 @media screen and (min-width: 480px) {
