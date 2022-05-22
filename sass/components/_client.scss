@@ -22,8 +22,8 @@
     .client-card__item{
         margin-left: 30px;
         margin-bottom: 30px;
-        @media screen and (max-width: 479px){
-            width: 43.5%;
+        @media screen and (min-width: 320px){
+            width: 40.6%;
                  }
         @media screen and (min-width: 480px){
             width: 43.5%;;
