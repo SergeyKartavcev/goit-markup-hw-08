@@ -28,6 +28,9 @@
     @media screen and (min-width: 320px){
        margin-left: 0;
                  }
+ @media screen and (min-width: 480px){
+        margin-left: 80px;
+                 }
     @media screen and (min-width: 768px){
        margin-left: 76px;
     }
@@ -148,6 +151,12 @@
         }    
 
         .footer-network{
+            @media screen and (min-width: 320px){
+                margin-left: 0;
+                          }
+          @media screen and (min-width: 480px){
+                 margin-left: 80px;
+                          }
             
             @media screen and (min-width: 768px){
                 margin-left: 0;
@@ -155,6 +164,7 @@
                 @media screen and (min-width: 1200px){
                     margin-left: 70px;
                     }
+
         }
 
         .footer-network__link{
