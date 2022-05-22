@@ -57,9 +57,11 @@
     @media screen and (min-width: 1200px){
         display: flex;
        padding-top:12px;
-      padding-left: 240px;
+      padding-left: 280px;
         }
 }
+
+
 
 .header-contacts__item {
     padding-right: 30px;
@@ -279,7 +281,7 @@
     display: block;
     z-index: 6;
     top: 0;
-    max-width: 320px;
+    max-width: 480px;
     }
     @media screen and (min-width: 480px){
         position: absolute;
@@ -346,11 +348,11 @@
     border: none;
     background-color: $primary-text-color;
     @media screen and (min-width: 320px){
-       left: 70px;
+     
        z-index: 6;
                      }
  @media screen and (min-width: 480px){
-       left: 70px;
+    
        z-index: 6;
                      }
     @media screen and (min-width: 768px){
