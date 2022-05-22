@@ -1787,9 +1787,18 @@ img {
   color: #2196F3;
 }
 
+@media screen and (min-width: 320px) {
+  .client-card__link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .client-card__link {
     width: 210px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -1797,6 +1806,8 @@ img {
   .client-card__link {
     width: 226px;
     margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -1804,6 +1815,8 @@ img {
   .client-card__link {
     width: 170px;
     margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
