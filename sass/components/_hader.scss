@@ -310,7 +310,6 @@
         display: none;
         top: 100%;
         left: 0;
-        // width: 320px;
     }
    
     @media screen and (min-width: 480px){
@@ -318,7 +317,6 @@
         display: none;
         top: 100%;
         left: 0;
-    //    width: 480px;
     }
 
    
@@ -348,11 +346,9 @@
     border: none;
     background-color: $primary-text-color;
     @media screen and (min-width: 320px){
-     
        z-index: 6;
                      }
  @media screen and (min-width: 480px){
-    
        z-index: 6;
                      }
     @media screen and (min-width: 768px){
