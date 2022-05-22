@@ -3,47 +3,53 @@
   max-width: 1600px;
     padding-top: 0;
     text-align: center;
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/Header.img1@2x.jpg'  );
+   
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
-
+    background-size: cover;
     @media screen and (min-width: 320px){
-      width: 320px;
+      max-width: 480px;
       height: 400px;
       background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
      url('../images/Header.img1@2x.jpg');
+     background-size: cover;
                    }
   
 
     @media screen and (min-width: 480px){
       background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/Header.img1@2x.jpg');
-    width: 480px;
+    max-width: 768px;
     height: 400px;
+    background-size: cover;
   }
 
     @media screen and (min-width: 768px){
         background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/Header.img2@2x.jpg');
-      width: 768px;
+      max-width: 1200px;
       height: 400px;
+      background-size: cover;
     }
 
     @media screen and (min-width: 1200px){
-        width: 1230px;
-        height: 600px;
+        max-width: 1600px;
+     height: 100%;
+     padding: 0;
         background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/Header.Img3@2x.jpg');
+      background-size: cover;
     }
 }
-
+.hero-box{
+  padding-bottom: 200px;
+}
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .box {
-    background-image: url('/images/Header.img1@2x.jpg');
+    background-image: url('/images/Header.img3@2x.jpg');
   }
 }
 .hero__title{
@@ -60,9 +66,12 @@
     margin-bottom: 30px;
     @media screen and (min-width: 1200px){
  width: 696px;
+ max-width: 696px;
  padding-top: 200px;
+height: 100%;
  font-size: 44px;
 line-height: 1.36;
+
     }
 }
 
@@ -82,4 +91,5 @@ line-height: 1.36;
     cursor: pointer;
     padding: 10px 32px 10px 32px ;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+  }

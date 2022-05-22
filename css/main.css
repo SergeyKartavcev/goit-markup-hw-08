@@ -349,7 +349,29 @@ ul {
 
 @media screen and (min-width: 320px) {
   .header__pege {
-    width: 320px;
+    max-width: 320px;
+    border-bottom: 1px solid #ECECEC;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .header__pege {
+    max-width: 768px;
+    border-bottom: 1px solid #ECECEC;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__pege {
+    max-width: 1200px;
+    border-bottom: 1px solid #ECECEC;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__pege {
+    max-width: 1600px;
+    border-bottom: 1px solid #ECECEC;
   }
 }
 
@@ -395,7 +417,7 @@ ul {
 @media screen and (min-width: 768px) {
   .header-contacts {
     display: block;
-    padding-left: 84px;
+    padding-left: 64px;
     margin-top: 21px;
     margin-bottom: 21px;
   }
@@ -702,6 +724,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .menu-button {
+    left: 240px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .menu-button {
     display: none;
@@ -765,6 +793,12 @@ ul {
   padding-right: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .header-list__logo {
+    padding-right: 0;
+  }
+}
+
 .logo-part {
   Font-family: 'Raleway';
   font-style: normal;
@@ -780,19 +814,19 @@ ul {
   max-width: 1600px;
   padding-top: 0;
   text-align: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Header.img1@2x.jpg");
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Header.img1@2x.jpg");
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 @media screen and (min-width: 320px) {
   .hero {
-    width: 320px;
+    max-width: 480px;
     height: 400px;
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Header.img1@2x.jpg");
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Header.img1@2x.jpg");
+    background-size: cover;
   }
 }
 
@@ -800,8 +834,9 @@ ul {
   .hero {
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Header.img1@2x.jpg");
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Header.img1@2x.jpg");
-    width: 480px;
+    max-width: 768px;
     height: 400px;
+    background-size: cover;
   }
 }
 
@@ -809,23 +844,30 @@ ul {
   .hero {
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Header.img2@2x.jpg");
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Header.img2@2x.jpg");
-    width: 768px;
+    max-width: 1200px;
     height: 400px;
+    background-size: cover;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1230px;
-    height: 600px;
+    max-width: 1600px;
+    height: 100%;
+    padding: 0;
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Header.Img3@2x.jpg");
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Header.Img3@2x.jpg");
+    background-size: cover;
   }
+}
+
+.hero-box {
+  padding-bottom: 200px;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .box {
-    background-image: url("/images/Header.img1@2x.jpg");
+    background-image: url("/images/Header.img3@2x.jpg");
   }
 }
 
@@ -846,7 +888,9 @@ ul {
 @media screen and (min-width: 1200px) {
   .hero__title {
     width: 696px;
+    max-width: 696px;
     padding-top: 200px;
+    height: 100%;
     font-size: 44px;
     line-height: 1.36;
   }
@@ -2172,10 +2216,22 @@ img {
   letter-spacing: 0.03em;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 63px;
-  padding-bottom: 63px;
+  height: 294px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .flax-product__title {
+    padding-top: 77px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flax-product__title {
+    padding-top: 57px;
+  }
 }
 
 @media screen and (min-width: 768px) {
