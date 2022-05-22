@@ -51,8 +51,8 @@
             border-color: $primary-bg-color;
             color: $primary-bg-color ;
         }
-        @media screen and (max-width: 479px){
-            width: 100%;
+        @media screen and (min-width: 320px){
+            // width: 200px
             
                  }
         @media screen and (min-width: 480px){
