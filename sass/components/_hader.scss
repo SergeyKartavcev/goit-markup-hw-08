@@ -291,14 +291,15 @@ display: flex;
     display: block;
     z-index: 1;
     top: 0;
-    max-width: 480px;
+ width: 480px;
+
     }
     @media screen and (min-width: 480px){
         position: absolute;
         display: block;
         z-index: 6;
         top: 0;
-        max-width: 480px;
+        width: 100%;
      
     }
     @media screen and (min-width: 768px){
@@ -347,11 +348,9 @@ display: flex;
 .menu-button{
     position: relative;
     display: inline-flex;
-   
     top: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
     height: 40px;
     border: none;
     background-color: $primary-text-color;
@@ -368,9 +367,18 @@ display: flex;
     @media screen and (min-width: 768px){
        display: none;
     }
+    &:hover,
+    &:focus{
+        color: $primary-bg-color;
+    }
 }
-
+.menu-button__icon-menu{
+    color: $title-text-color;
+ 
+   
+}
 .menu-button__icon-close{
+    color: $title-text-color;
     display: none;
 }
  .is-open .menu-button__icon-close{
@@ -385,6 +393,7 @@ display: none;
 }
 
 .header-list-menu-network{
+
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
